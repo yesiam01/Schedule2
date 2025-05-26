@@ -35,9 +35,17 @@ public class ScheduleService {
     public Schedule updateSchedule(Long id, Schedule newSchedule) {
         return scheduleRepository.findById(id)
                 .map(schedule -> {
-                    schedule.setUsername(newSchedule.getUsername());
+                    // username 필드는 더 이상 없으므로 제거
+                    // schedule.setUsername(newSchedule.getUsername());
+
                     schedule.setTitle(newSchedule.getTitle());
                     schedule.setTodo(newSchedule.getTodo());
+
+                    // user가 새로 전달되었다면 갱신
+                    if (newSchedule.getUser() != null) {
+                        schedule.setUser(newSchedule.getUser());
+                    }
+
                     return scheduleRepository.save(schedule);
                 })
                 .orElseThrow(() -> new RuntimeException("Schedule not found " + id));
