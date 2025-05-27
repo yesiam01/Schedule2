@@ -15,7 +15,7 @@ ERD  (https://renzpark572.atlassian.net/wiki/external/MzA3OTFjN2ZlM2EwNDc5Njk1OG
 
 
 
-API (https://renzpark572.atlassian.net/wiki/spaces/~7120206237f980ba584c9eb7cea78d2372e0c5/pages/262158/Schedule+API)
+API MzA3OTFjN2ZlM2EwNDc5Njk1OGZkOTIwNTY2NGVmODA
 
 
 일정 (Todo)
