@@ -20,11 +20,11 @@ API (https://renzpark572.atlassian.net/wiki/spaces/~7120206237f980ba584c9eb7cea7
 
 일정 (Todo)
 
-- `GET /api/todos` : 전체 일정 조회
-- `POST /api/todos` : 일정 생성
-- `GET /api/todos/{id}` : 일정 상세 조회
-- `PUT /api/todos/{id}` : 일정 수정
-- `DELETE /api/todos/{id}` : 일정 삭제
+- GET /api/todos : 전체 일정 조회
+- POST /api/todos : 일정 생성
+- GET /api/todos/{id} : 일정 상세 조회
+- PUT /api/todos/{id} : 일정 수정
+- DELETE /api/todos/{id} : 일정 삭제
 
 유저 (User)
 
