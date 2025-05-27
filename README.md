@@ -10,7 +10,7 @@
 
 ERD 문서 확인:  
 
-ERD  (https://renzpark572.atlassian.net/wiki/external/MzA3OTFjN2ZlM2EwNDc5Njk1OGZkOTIwNTY2NGVmODA)
+ERD  (https://renzpark572.atlassian.net/wiki/external/Y2EyNTQ2ZDZjNjIxNDgyY2E5NmU0ZTEyYzljYjFlNTc)
 
 
 
